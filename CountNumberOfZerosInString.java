@@ -1,6 +1,6 @@
  class CountNumberOfZerosInString
     {
-		static String NumberOfZeros(String s)
+		static String NumberOfZerosUsingCounter(String s)
 		{
 			int countForZero = 0;
 			int countForOne = 0;
@@ -19,7 +19,7 @@
         public static void main(String[] args)
         {
             String str = "011001110";
-            System.out.printf(NumberOfZeros(str) + "\n");
+            System.out.printf(NumberOfZerosUsingCounter(str) + "\n");
 
         }
 	}
